@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "node-sass": "^9.0.0"
+  },
+  "name": "sass-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "scss":"node-sass --output-style compressed assets/scss -o assets/css"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+ 
+}

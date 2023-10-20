@@ -1,0 +1,110 @@
+@import 'color';
+
+header{
+    background-image: url("../../img/pic1.jpg");
+    background-size: cover;
+    height: 530px;
+}
+.t-color{
+    color: $yellow-t;
+}
+.color-tinker{
+    color:$porteghali;
+}
+.color-html5{
+    color:$mermaid;
+}
+.bg-img{
+    background-image: url("../../img/pic4.jpg");
+    background-size: cover;
+    // height: 520px;
+}
+.setsize-icon{
+
+    margin-top: 40px;
+}
+.setsize-icon i
+{
+         font-size: 50px;
+         text-align: center;
+         color: white;
+         
+         
+}
+.set-space{
+    padding-top: 85px;
+}
+.set-sizediv{
+    height: 935px;
+}
+.link-style a:link{
+    text-decoration: none;
+    color: white;
+}
+.link-style a:visited{
+    text-decoration: none;
+    color: white;
+}
+.link-style a:hover{
+    text-decoration: none;
+    color: $yellow-t;
+}
+.link-style a:active{
+    text-decoration: none;
+    color: white;
+}
+.carousel .carousel-indicators button {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+  }
+ .set-carousel{
+     height: 320px;
+ }
+ .set-pt{
+    padding-top: 65px;
+ }
+ .background-section4{
+    background-image: url("../../img/pic3.jpg");
+    background-size: cover;
+    height: 540px;
+    width: 300px;
+ }
+ .set-color-sec4{
+    background-color: black;
+    opacity: 0.6;
+ }
+ .set-color-h5{
+    color: $my-white;
+ }
+ .set-space-h5{
+    padding-top: 75px;
+ }
+.color-bg-button{
+    background-color: $my-white;
+}
+
+.link-style2 a:link{
+    text-decoration: none;
+    color: black;
+}
+.link-style2 a:visited{
+    text-decoration: none;
+    color: black;
+}
+.link-style2 a:hover{
+    text-decoration: none;
+    color: orangered;
+}
+.link-style2 a:active{
+    text-decoration: none;
+    color: black;}
+.bg-img-row{
+        background-image: url("../../img/couple.png");
+        height: 351px;
+        width: 734px;
+      
+    }
+.color-p{
+    color: $mermaid;
+}

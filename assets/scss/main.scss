@@ -1,0 +1,16 @@
+
+// Create your own map
+$custom-colors: (
+  "mermaid": rgb(0, 217, 255)
+);
+
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+
+
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
